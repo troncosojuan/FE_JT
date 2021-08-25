@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    background-color:#1CD1B0; ;
+    height: 23px;
+    width: 1440px;
+    font-size: 0.9rem ;
+    align-items: center ;
+    padding-top: 0.1rem;
+}
+h1{
+    width: 1440px;
+    background-color:#00669F ;
+    height:81px ;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+h3{
+    display: flex;
+    background-color:#001D2D ;
+    color: white;
+    justify-content: flex-end;
+    width: 1440px;
+   
+}
+ul{
+    display: flex;
+    width: 251px;
+    height: 19px ;
+}
+.contacto{
+    height: 19px ;
+    margin: 0px 10px 0px 10px;
+    font-size: 0.9rem;
+
+}
+main{
+    width: 1440px;
+    height: 911px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    ;
+}
+.cajagigante{
+    width: 954px;
+    height: 832px;
+    display: flex;
+  
+    border-radius: 4rem;
+    background-color: #00669F;
+    flex-direction: column;
+
+}
+.caja{
+    width: 934px;
+ 
+    margin: 10px;
+
+}
+.first{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    width: 300px;
+    height: 72px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 72px;
+ 
+    padding-left: 15px;
+}
+.agrega{
+    width: 520px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 14px;
+    color:  #FFFFFF;
+
+    padding-left: 15px;
+}
+.second{
+    height:102px ;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.nnombre{
+  
+    width: 343px;
+    height: 102px;
+    color: white;
+    margin-left:  100px;
+}
+.especiee{
+    margin-right: 100px;
+    width: 343px;
+    height: 102px;
+    color: white;
+}
+.third{
+    height: 108px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+
+}
+.fechaa{
+    width: 343px;
+    height: 107px;
+    margin-left:  100px;
+    color: white;
+
+
+}
+.fotoo{
+    width: 343px;
+    height: 107px;
+    margin-right: 100px;
+    color: white;
+}
+.fourth{
+    height: 308px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.fourthaaaa{
+    width: 343px;
+    height: 300px;
+    margin-left:  100px;
+    color: white;
+ }
+.fourthbbbb{
+    width: 343px;
+    height: 300px;
+    display: flex;
+    margin-right: 100px;
+    flex-direction: column;
+    color: white;
+}
+.listita {
+    height: 26px;
+     ;
+}
+.poderess{
+    height: 189px;
+    width: 343px;
+    padding-bottom:20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.chek{
+    width: 24px;
+    height: 20px;
+
+}
+.personajee{
+    height: 123px;
+    width: 343px;
+    padding-bottom:20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.puntito{
+    width: 20px;
+    height: 20px;
+}
+.fifth{
+    height: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anadir{
+    height: 87px;
+    width: 466px;
+    border-radius: 25px;
+    background-color:#1CD1B0 ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    padding: 20px 0 0 170px;
+}
+.edicion{
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px; 
+}
+.prueba{
+    border-radius: 10px;
+    width:  342px;
+    height: 63px;
+}
+
+footer{
+    background-color: #00669F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:61px ;
+    width: 1440px;
+    color: white;
+}
+
+

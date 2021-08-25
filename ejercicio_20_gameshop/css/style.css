@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  font-family: "Roboto";
+}
+
+/* Mobile */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #222222;
+  color: #f3f3f3;
+  padding: 1.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+nav li {
+  display: inline;
+  padding-left: 12px;
+}
+
+nav a {
+  color: #f3f3f3;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav span {
+  font-size: 1rem;
+}
+
+.fa-bars {
+  font-size: 1.9rem;
+}
+
+.fa-shopping-cart {
+  color: #14aed0;
+  padding-left: 1.2rem;
+}
+
+.menuBar {
+  display: none;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/istockphoto-1138395421-612x612.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  text-align: center;
+  font-size: 2.7rem;
+  height: 55vh;
+
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.banner p {
+  color: white;
+}
+
+.banner span {
+  color: #14aed0;
+}
+
+button {
+  background-color: #14aed0;
+  border: none;
+  width: 200px;
+  border-radius: 5px;
+  color: #f3f3f3;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.cards {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.card {
+  background: white;
+  border-radius: 5px;
+  height: 20rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  background-color: transparent;
+  width: 70%;
+}
+.card hr {
+  width: 100%;
+  border: 0.1spx solid #222222;
+}
+.card h5 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: black;
+}
+
+.card p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.card span {
+  line-height: 12px;
+  color: #619d00;
+  font-size: 0.9rem;
+}
+
+.stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  height: 50vh;
+  background-color: #f3f3f3;
+  color: white;
+  gap: 1.5rem;
+}
+
+.star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 3rem;
+  width: 22rem;
+  font-size: 1.5rem;
+}
+
+.chair {
+  background-image: url("../img/chair.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.computer {
+  background-image: url("../img/computer.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+footer {
+  background-color: #222222;
+  text-align: center;
+}
+
+footer img {
+  background-color: #222222;
+  padding: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  padding: 1rem;
+}
+
+.social p {
+  font-size: 1.8rem;
+  color: #f3f3f3;
+}
+
+.social div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.fa-twitter {
+  padding: 1rem;
+  color: #14aed0;
+}
+
+.fa-facebook-f {
+  padding: 1rem;
+  color: #1476d0;
+}
+
+.fa-instagram {
+  padding: 1rem;
+  color: #ce0cff;
+}
+
+.copyright {
+  background-color: #c4c4c4;
+  color: black;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* escritorio */
+
+@media (min-width: 1024px) {
+  nav {
+    display: flex;
+    justify-self: space-around;
+  }
+
+  .menuBar {
+    display: flex;
+  }
+  .fa-bars {
+    display: none;
+  }
+  .banner {
+    background-repeat: repeat-x;
+    background-position: cover;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+}

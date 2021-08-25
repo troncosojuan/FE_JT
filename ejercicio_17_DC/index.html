@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2>20% de descuento en todos los productos!</h2>
+        <h1>
+            <img src="img/logo.png" alt="">
+            <p class="nombretienda">Nombre Tienda</p>
+        </h1>
+        <h3>
+            <ul type="none">
+                <li class="contacto uno">Contacto</li>
+                <li class="contacto dos">Registrame</li>
+                <li class="contacto tres">ingresar</li>
+            </ul>
+        </h3>
+    </header>
+    <main>
+    <section class="cajagigante">
+        <article class="caja first">
+            <h4>Añadí tu super!</h4>
+            <p class="agrega">Agregá tu personaje favorito completando las opciones.</p>
+        </article>
+        <article class="caja second">
+            <div class="nnombre">
+            <label class=edicion for="nombre">nombre:</label><br>
+            <input  class=prueba type="text" name="nombre" id="nombre" placeholder="nombre">
+        </div>
+        <div class="especiee">
+            <action action="/especie" method="GET">
+                <label class=edicion  for="">especie:</label><br>
+                <select class=prueba  name="especie" id="">
+                    <option value="#ff0000">especie</option>
+                </select>
+            </action>
+        </div>
+        </article>
+        <article class="caja third">
+            <div class="fechaa">
+            <label class=edicion  for="">fecha</label><br>
+            <input class=prueba  type="date" name="fecha" value="2021-08-05" min="2020-01-01" max="2023-01-01">
+        </div>
+        <div class="fotoo">
+            <label  class=edicion for="">agregar foto</label>
+            <input  class=prueba type="file" name="foto" id="" accept=".jpg" multiple placeholder="">
+        </div>
+        </article>
+
+        <article class="caja fourth">
+            <div class="fourthaaaa">
+                <form action="/descripcion" method="POST">
+                <label  for="descripcion">descripcion</label><br>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="15" placeholder="descripcion"></textarea>
+                </form>
+            </div>
+            <div class="fourthbbbb">
+                <ul type=none class="poderess">
+                    <label for="">poderes</label>
+                    <li class="listita" ><input class="chek"  type="checkbox" name="poderes" value="volar">volar</li>
+                    <li  class="listita"><input class="chek" type="checkbox" name="poderes" value=" superinteligencia">superinteligencia</li>
+                   <li class="listita"> <input class="chek" type="checkbox" name="poderes" value=" vista de rayo laser">vista de rayo laser</li>
+                    <li class="listita"><input class="chek"  type="checkbox" name="poderes" value=" billetera gorda">billetera gorda</li>
+                </ul>
+                <hr >
+                <ul type=none class="personajee">
+                    <label for="">tipo de personaje</label>
+                    <li class="listita"><input class=puntito type="radio" name="personaje" value="heroe/heroina"> heroe/heroina</li>
+                    <li class="listita"><input class=puntito type="radio" name="personaje" value=" villano/villana">villano/villana</li>
+                
+                </ul>
+            </div>
+
+        </article>
+        <article class="caja fifth">
+            <p class="anadir">Anadir</p>
+        </article>
+    </section>
+    </main>
+    <footer>
+        Todos los derechos reservados a FRONT END 1
+    </footer>
+</body>
+</html>
